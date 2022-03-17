@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*{
+    padding:0px;
+    margin:0px
+}
+a{
+    color: black !important;
+}
+.btn{
+    color: white !important;
+    background-color: #2196f3;
+}
+.brand-logo{
+    font-family: 'Grand Hotel', cursive;
+}
+.card{
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3  !important;
+  }
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3  !important;
+  }
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.messages{
+    display:flex;
+    margin:5px;
+    padding:5px;
+}
+.followings{
+    flex:4;
+    overflow-y: auto;
+}
+.cardContent{
+    overflow-y: auto !important;
+}
+.message{
+    color: rgb(255, 255, 255) !important;
+    background-color: #2196f3;
+    border-radius: 5px;
+    margin: 20px 100px 0px 0px;
+    font-size: 17px;
+}
+.mymessage{
+    color: rgb(0, 0, 0) !important;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin: 20px 0px 0px 100px;
+    font-size: 17px;
+}
+.messagebtm{
+    position: absolute;
+    left: 20px;
+    color:rgb(146, 146, 146);
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.mymessagebtm{
+    position: absolute;
+    right:20px;
+    color:rgb(146, 146, 146);
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.item{
+    width:30%;
+}
+.chatbox{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 20px 20px 100px;
+    width: 50vw;
+    background-color: white;
+    border:1px solid rgb(228, 228, 228) ;
+    border-radius: 2px;
+    flex:8;
+    height: 50vh;
+    max-height: 700px;
+    overflow-y: auto !important; 
+}
+.homecard{
+    text-align: left !important;
+    margin: 20px auto;
+    max-width: 800px;
+    height: max-content;
+}
+
+.nameg{
+    text-align: center;
+    padding:5px;
+    font-size:20px !important;
+    margin:10px auto !important; 
+    border-bottom: 1px solid rgb(218, 217, 217) !important;
+}
+.messagetext{
+    border: 0px 0px 1px 0px solid rgb(218, 217, 217) !important;
+}
+.cardaction{
+     /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    margin:20px 10px 0px 10px;
+    bottom: 5px;
+}
+#toast-container{
+    top:30px !important;
+    right:20px !important;
+    left: auto !important;
+}
+textarea{
+    width:40vw;
+    max-width:500px;
+    height: 40px;
+}
+.bla{
+    width:8vw;
+    max-width:50px;
+    height: 40px;
+    margin:auto; 
+}
+.chatsec{
+    margin:20px;
+    border:1px solid rgb(228, 228, 228);
+}
